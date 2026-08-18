@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Fraunces:opsz,wght@9..144,400;9..144,700;9..144,900&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --font-display: 'Fraunces', Georgia, serif;
+  --font-body: 'Nunito', system-ui, sans-serif;
+  --color-bg: #0e1f2b;
+  --color-surface: #152536;
+  --color-card: #1a2d40;
+  --color-border: rgba(255,255,255,0.08);
+  --color-accent-yellow: #f9d923;
+  --color-accent-coral: #ff6b6b;
+  --color-accent-teal: #2ec4b6;
+  --color-accent-lime: #8bc34a;
+  --color-accent-violet: #9b59b6;
+  --color-accent-orange: #ff9800;
+  --color-accent-pink: #e91e8c;
+  --color-accent-blue: #3498db;
+  --color-accent-green: #27ae60;
+  --color-accent-sand: #e8c77b;
+  --color-text: #f0f4f8;
+  --color-muted: #7a9ab5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.15); border-radius: 3px; }

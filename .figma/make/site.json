@@ -1,0 +1,10 @@
+{
+  "description": "This interactive web app enhances Portuguese language learning for foreigners through engaging icons and scenarios like traffic, school, and leisure activities.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
